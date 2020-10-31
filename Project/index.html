@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Header file -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- add style file -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Title -->
+    
+    <title>Responsive Page | using Angular JS</title>
+
+</head>
+
+<!-- Here body part start -->
+
+<body>
+    <div class="main" ng-app ="myList" ng-controller ="myListcontroller">
+        <h1>Library</h1>
+        <div class="additem">
+            <input ng-model = "newitem" placeholder="add item" class="addtext">
+            <button ng-click="pushitem()">Add</button>
+        </div>
+            <ul>
+                <li ng-repeat="i in items">
+                    
+                    {{i}}
+
+                    <span ng-click="deleteitem($index)">☑</span>
+
+                </li>
+
+                    
+                
+            </ul>
+    </div>
+
+    <!-- add scripts -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>

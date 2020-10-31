@@ -1,0 +1,72 @@
+body {
+    background-image: url(image.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main{
+    width: 300px;
+    height: 83px;
+    padding: 1px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid slateblue;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+
+    text-align: center;
+    background-color: #3214aa54;
+    padding: 22px 0px;
+    margin-top: 1px;
+
+}
+
+ul {
+    display: block;
+    list-style: none;
+    font-size: 20px;
+    color: #2700fc;
+    margin-left: -40px;
+    margin-bottom: 0px;
+}
+
+li {
+    border-bottom: 2px solid #40acec36;
+    background-color: #30006421;
+    padding: 8px 0px;
+    margin-bottom: 4px;
+}
+
+li span{
+    cursor: pointer;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+}
+
+.additem {
+    position: relative;
+    padding-bottom: 0px;
+    height: 40px;
+}
+
+.addtext {
+    width: 78%;
+    height: 25px;
+}
+
+.button{
+    cursor: pointer;
+    padding: 2px;
+    border-bottom: 2px solid black;
+}
+
+.additem button {
+    border-radius: 2px;
+    height: 25px;
+    width: 50px;
+}
